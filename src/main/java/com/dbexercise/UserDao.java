@@ -1,9 +1,6 @@
 package com.dbexercise;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Map;
 
 public class UserDao {
@@ -27,6 +24,6 @@ public class UserDao {
 
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         UserDao userDao = new UserDao();
-        userDao.add();
+            userDao.add();
     }
 }
